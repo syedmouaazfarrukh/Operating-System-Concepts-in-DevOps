@@ -7,7 +7,6 @@ In case of for our unix systems httpd, inetd, sshd etc are daemons that are runn
 
 Being a system process the init belongs to the system configuration directory folder as shown below:
 
-![image](https://user-images.githubusercontent.com/97732099/200034014-230c4e68-9aba-4c9b-b773-0c7f89ef7979.png)
 ![image](https://user-images.githubusercontent.com/97732099/200176105-883b15ce-8436-423f-83ea-97383fb3bd03.png)
 
 
@@ -31,11 +30,43 @@ It is because service command is used for very basic functionalities of the syst
 
 
 # Service-Management-in-DevOps
+systemd is a System Management Daemon which replaces the sysvinit process to become the first process with PID = 1, which gets executed in user space during the Linux start-up process. It is a system that is designed specifically for the Linux kernel. It is now being used as a replacement of init.d to overcome shortcomings of it. 
+
+As shown above systemctl is used to enable, start, stop, kill or to check the status of a daemon (program running in behind). Its command format is,
+
+> systemctl start [service-name], $ systemctl poweroff
+Examples:
+
+> systemctl status httpd
+Systemctl checks whether the service/process httpd is running or not.
+
+![image](https://user-images.githubusercontent.com/97732099/200176649-fa7747a8-8567-47d4-a66e-63419181636b.png)
+
+> systemctl enable httpd
+Systemctl enables the service/process httpd to be able to work with.
+
+![image](https://user-images.githubusercontent.com/97732099/200176702-5af3d40d-1dd0-465a-92c0-d2fbce3e9c13.png)
+
+> systemctl start httpd
+Systemctl starts the service/process httpd.
+
+![image](https://user-images.githubusercontent.com/97732099/200176757-c18b7b20-f8e7-4a4d-b903-a43c04734c84.png)
+
+
+> systemctl status httpd
+Now if you again check the status of httpd, then it appears as running actice as compared to previous status shown above.
+
+![image](https://user-images.githubusercontent.com/97732099/200176843-cb6d1d27-3136-42f3-929c-2e6b88a636f9.png)
+
+
 
 
 
 
 # Virtualization-in-DevOps
+
+
+
 
 
 
