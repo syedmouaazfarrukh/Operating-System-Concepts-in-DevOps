@@ -60,14 +60,12 @@ Now if you again check the status of httpd, then it appears as running actice as
 
 
 
-
-
-
 # Virtualization-in-DevOps
+Virtualization is the creation of a virtual -- rather than actual -- version of something, such as an operating system (OS), a server, a storage device or network resources.
 
+Just like I've created multiple operating systems on top of my Windows 11 using Oracle's VirtualVM Box as shown below. This is called as the concept of Virtualization.
 
-
-
+![image](https://user-images.githubusercontent.com/97732099/200177535-aabd892f-45f7-457c-9a2e-df9f27fa546c.png)
 
 
 
