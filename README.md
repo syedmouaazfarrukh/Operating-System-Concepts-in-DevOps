@@ -7,19 +7,14 @@ In case of for our unix systems httpd, inetd, sshd etc are daemons that are runn
 
 Being a system process the init belongs to the system configuration directory folder as shown below:
 
-![image](https://user-images.githubusercontent.com/97732099/200033682-4b08bfc3-bd06-4159-abf4-475d6e976c1b.png)
-
-
-In the top you'll see the init.d folder which contains all the programs running in the back which affect functioning of the system.
-
 ![image](https://user-images.githubusercontent.com/97732099/200034014-230c4e68-9aba-4c9b-b773-0c7f89ef7979.png)
+![image](https://user-images.githubusercontent.com/97732099/200176105-883b15ce-8436-423f-83ea-97383fb3bd03.png)
 
 
-
+Above you'll see the init.d folder which contains all the programs running in the back which affect functioning of the system.
 When we get into this directory of init.d then what we see is that it only contains a function file which is responsible for starting & stopping various functions that are happening in the background.
 
-![image](https://user-images.githubusercontent.com/97732099/200034397-dac5ec1f-7725-46f2-85ac-5e51cd7ad2a4.png)
-
+![image](https://user-images.githubusercontent.com/97732099/200176169-d4ae5aa7-d957-436d-a612-65819b5793f5.png)
 
 
 Now when we wish to start a service then:
@@ -27,7 +22,7 @@ Now when we wish to start a service then:
 
 However if you wish to start the htptd service using the service command then an error will occur:
 
-![image](https://user-images.githubusercontent.com/97732099/200036833-383a1b22-69d2-4fff-ac89-518b98b0b762.png)
+![image](https://user-images.githubusercontent.com/97732099/200176221-45d23878-9d00-4059-9bfa-9d94ba84c6df.png)
 
 It is because service command is used for very basic functionalities of the system, for a service like httpd systemctl command is used.
 
