@@ -61,15 +61,23 @@ Now if you again check the status of httpd, then it appears as running actice as
 
 
 # Virtualization-in-DevOps
-Virtualization is the creation of a virtual -- rather than actual -- version of something, such as an operating system (OS), a server, a storage device or network resources.
-
-Just like I've created multiple operating systems on top of my Windows 11 using Oracle's VirtualVM Box as shown below. This is called as the concept of Virtualization.
+Virtualization is the creation of a virtual -- rather than actual -- version of something, such as an operating system (OS), a server, a storage device or network resources. Just like I've created multiple operating systems on top of my Windows 11 using Oracle's VirtualVM Box as shown below. This is called as the concept of Virtualization.
 
 ![image](https://user-images.githubusercontent.com/97732099/200177535-aabd892f-45f7-457c-9a2e-df9f27fa546c.png)
 
 
 
 # Memory_Storage-&-File_System-in-DevOps
+
+The term Memory can be defined as a collection of data in a specific format. It is used to store instructions and process data. The memory comprises a large array or group of words or bytes, each with its own location. The primary motive of a computer system is to execute programs. These programs, along with the information they access, should be in the main memory during execution. The CPU fetches instructions from memory according to the value of the program counter.
+
+To achieve a degree of multiprogramming and proper utilization of memory, memory management is important. There are several memory management methods, reflecting various approaches, and the effectiveness of each algorithm depends on the situation.
+
+
+A file is a named collection of related information recorded on secondary storage such as magnetic disks, magnetic tapes, and optical disks. Generally, a file is a sequence of bits, bytes, lines, or records whose meaning is defined by the file's creator and user. Linux file system is shown below within (/) every folder has certain type of data stored in it. You can add more folders using the mkdir but it is better to add everything in the place that has been laid out by the system architecture because when you build large systems then a lot of problems may arise due to wrong placment of files in their respective folders.
+
+![image](https://user-images.githubusercontent.com/97732099/200178033-f47aae5c-53c2-430a-b128-89f1447c7f37.png)
+
 
 
 
