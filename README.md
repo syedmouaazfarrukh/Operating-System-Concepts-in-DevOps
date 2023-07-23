@@ -4,7 +4,6 @@ The first process of Linux system is (init.d) which is a daemon. A daemon is a p
 
 In case of for our unix systems httpd, inetd, sshd etc are daemons that are running and whose status can be checked and changed from time to time. This repo will have startup managemenet through init.d. I'm using centos 7 using Oracle VM VirtualBox
 
-
 Being a system process the init belongs to the system configuration directory folder as shown below:
 
 ![image](https://user-images.githubusercontent.com/97732099/200176105-883b15ce-8436-423f-83ea-97383fb3bd03.png)
