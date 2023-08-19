@@ -9,7 +9,7 @@ Being a system process the init belongs to the system configuration directory fo
 ![image](https://user-images.githubusercontent.com/97732099/200176105-883b15ce-8436-423f-83ea-97383fb3bd03.png)
 
 Above you'll see the init.d folder which contains all the programs running in the back which affect functioning of the system.
-When we get into this directory of init.d then what we see is that it only contains a function file which is responsible for starting & stopping various functions that are happening in the background.
+When we get into this directory of init.d then what we see is that it only contains some function file which is responsible for starting & stopping various functions that are happening in the background.
 
 ![image](https://user-images.githubusercontent.com/97732099/200176169-d4ae5aa7-d957-436d-a612-65819b5793f5.png)
 
